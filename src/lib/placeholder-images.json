@@ -3,7 +3,7 @@
     {
       "id": "hero-couple",
       "description": "Romantic couple holding hands",
-      "imageUrl": "https://picsum.photos/seed/romantic-hero/1920/1080",
+      "imageUrl": "./images/1080.webp",
       "imageHint": "romantic couple"
     },
     {
