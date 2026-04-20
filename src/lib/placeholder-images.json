@@ -21,49 +21,49 @@
     {
       "id": "journey-1",
       "description": "First meeting place or symbol",
-      "imageUrl": "/images/MR1.jpg",
+      "imageUrl": "/images/MR1.jpeg",
       "imageHint": "first meeting"
     },
     {
       "id": "journey-2",
       "description": "Travel memory",
-      "imageUrl": "/images/MR2.jpg",
+      "imageUrl": "/images/MR2.jpeg",
       "imageHint": "couple travel"
     },
     {
       "id": "journey-3",
       "description": "Special anniversary",
-      "imageUrl": "/images/MR3.jpg",
+      "imageUrl": "/images/MR3.jpeg",
       "imageHint": "anniversary celebration"
     },
     {
       "id": "gallery-1",
       "description": "Romantic dinner",
-      "imageUrl": "/images/MR4.jpg",
+      "imageUrl": "/images/MR4.jpeg",
       "imageHint": "romantic dinner"
     },
     {
       "id": "gallery-2",
       "description": "Beach walk",
-      "imageUrl": "/images/MR5.jpg",
+      "imageUrl": "/images/MR5.jpeg",
       "imageHint": "beach couple"
     },
     {
       "id": "gallery-3",
       "description": "Engagement ring",
-      "imageUrl": "/images/MR6.jpg",
+      "imageUrl": "/images/MR6.jpeg",
       "imageHint": "engagement ring"
     },
     {
       "id": "gallery-4",
       "description": "Happy wedding",
-      "imageUrl": "/images/MR7.jpg",
+      "imageUrl": "/images/MR7.jpeg",
       "imageHint": "wedding couple"
     },
     {
       "id": "gallery-5",
       "description": "Snow day",
-      "imageUrl": "/images/MR8.jpg",
+      "imageUrl": "/images/MR8.jpeg",
       "imageHint": "winter couple"
     },
     {
