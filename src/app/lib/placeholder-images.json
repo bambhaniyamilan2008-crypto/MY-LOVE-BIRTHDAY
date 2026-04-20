@@ -1,0 +1,77 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "hero-couple",
+      "description": "Romantic couple holding hands",
+      "imageUrl": "/images/hero.jpg",
+      "imageHint": "romantic couple"
+    },
+    {
+      "id": "wife-portrait",
+      "description": "Portrait of a beautiful woman",
+      "imageUrl": "/images/wife.jpg",
+      "imageHint": "beautiful woman"
+    },
+    {
+      "id": "couple-memory-1",
+      "description": "Couple laughing together",
+      "imageUrl": "/images/memory-1.jpg",
+      "imageHint": "happy couple"
+    },
+    {
+      "id": "journey-1",
+      "description": "First meeting place or symbol",
+      "imageUrl": "/images/journey-1.jpg",
+      "imageHint": "first meeting"
+    },
+    {
+      "id": "journey-2",
+      "description": "Travel memory",
+      "imageUrl": "/images/journey-2.jpg",
+      "imageHint": "couple travel"
+    },
+    {
+      "id": "journey-3",
+      "description": "Special anniversary",
+      "imageUrl": "/images/journey-3.jpg",
+      "imageHint": "anniversary celebration"
+    },
+    {
+      "id": "gallery-1",
+      "description": "Romantic dinner",
+      "imageUrl": "/images/photo1.jpg",
+      "imageHint": "romantic dinner"
+    },
+    {
+      "id": "gallery-2",
+      "description": "Beach walk",
+      "imageUrl": "/images/photo2.jpg",
+      "imageHint": "beach couple"
+    },
+    {
+      "id": "gallery-3",
+      "description": "Engagement ring",
+      "imageUrl": "/images/photo3.jpg",
+      "imageHint": "engagement ring"
+    },
+    {
+      "id": "gallery-4",
+      "description": "Happy wedding",
+      "imageUrl": "/images/photo4.jpg",
+      "imageHint": "wedding couple"
+    },
+    {
+      "id": "gallery-5",
+      "description": "Snow day",
+      "imageUrl": "/images/photo5.jpg",
+      "imageHint": "winter couple"
+    },
+    {
+      "id": "gallery-6",
+      "description": "City lights",
+      "imageUrl": "/images/photo6.jpg",
+      "imageHint": "city romance"
+    }
+  ]
+}

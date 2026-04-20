@@ -1,0 +1,76 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-couple",
+      "description": "Romantic couple holding hands",
+      "imageUrl": "https://picsum.photos/seed/romantic-hero/1920/1080",
+      "imageHint": "romantic couple"
+    },
+    {
+      "id": "wife-portrait",
+      "description": "Portrait of a beautiful woman",
+      "imageUrl": "https://picsum.photos/seed/wife-1/600/800",
+      "imageHint": "beautiful woman"
+    },
+    {
+      "id": "couple-memory-1",
+      "description": "Couple laughing together",
+      "imageUrl": "https://picsum.photos/seed/memory-1/600/800",
+      "imageHint": "happy couple"
+    },
+    {
+      "id": "journey-1",
+      "description": "First meeting place or symbol",
+      "imageUrl": "https://picsum.photos/seed/journey-1/400/300",
+      "imageHint": "first meeting"
+    },
+    {
+      "id": "journey-2",
+      "description": "Travel memory",
+      "imageUrl": "https://picsum.photos/seed/journey-2/400/300",
+      "imageHint": "couple travel"
+    },
+    {
+      "id": "journey-3",
+      "description": "Special anniversary",
+      "imageUrl": "https://picsum.photos/seed/journey-3/400/300",
+      "imageHint": "anniversary celebration"
+    },
+    {
+      "id": "gallery-1",
+      "description": "Romantic dinner",
+      "imageUrl": "https://picsum.photos/seed/gal-1/500/500",
+      "imageHint": "romantic dinner"
+    },
+    {
+      "id": "gallery-2",
+      "description": "Beach walk",
+      "imageUrl": "https://picsum.photos/seed/gal-2/500/500",
+      "imageHint": "beach couple"
+    },
+    {
+      "id": "gallery-3",
+      "description": "Engagement ring",
+      "imageUrl": "https://picsum.photos/seed/gal-3/500/500",
+      "imageHint": "engagement ring"
+    },
+    {
+      "id": "gallery-4",
+      "description": "Happy wedding",
+      "imageUrl": "https://picsum.photos/seed/gal-4/500/500",
+      "imageHint": "wedding couple"
+    },
+    {
+      "id": "gallery-5",
+      "description": "Snow day",
+      "imageUrl": "https://picsum.photos/seed/gal-5/500/500",
+      "imageHint": "winter couple"
+    },
+    {
+      "id": "gallery-6",
+      "description": "City lights",
+      "imageUrl": "https://picsum.photos/seed/gal-6/500/500",
+      "imageHint": "city romance"
+    }
+  ]
+}

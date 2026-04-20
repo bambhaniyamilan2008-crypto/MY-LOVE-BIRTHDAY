@@ -1,0 +1,173 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Primary: #E09485 (Peachy Pink) */
+    --primary: 10 57% 70%;
+    --primary-foreground: 0 0% 100%;
+    
+    /* Background: #FDFBF9 (Soft White) */
+    --background: 30 20% 98%;
+    --foreground: 0 0% 15%;
+    
+    /* Accent: #E8AB30 (Gold) */
+    --accent: 40 80% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 15%;
+    --secondary: 10 30% 95%;
+    --secondary-foreground: 10 57% 30%;
+    --muted: 10 20% 95%;
+    --muted-foreground: 0 0% 45%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 10 20% 90%;
+    --input: 10 20% 90%;
+    --ring: 10 57% 70%;
+    --radius: 1.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body antialiased selection:bg-primary/20 overflow-x-hidden;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline tracking-tight;
+  }
+}
+
+/* Custom Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-primary/20 rounded-full hover:bg-primary/40 transition-colors;
+}
+
+/* Animations */
+@keyframes slow-zoom {
+  0% { transform: scale(1.0); }
+  100% { transform: scale(1.08); }
+}
+
+.animate-slow-zoom {
+  animation: slow-zoom 20s ease-in-out infinite alternate;
+}
+
+@keyframes bounce-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 4s ease-in-out infinite;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-8px); }
+  75% { transform: translateX(8px); }
+}
+
+.animate-shake {
+  animation: shake 0.2s ease-in-out 0s 2;
+}
+
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.reveal-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Background Floating Hearts */
+@keyframes backgroundFloat {
+  0% { transform: translateY(105vh) scale(0) rotate(0deg); opacity: 0; }
+  20% { opacity: 0.5; }
+  80% { opacity: 0.5; }
+  100% { transform: translateY(-15vh) scale(1.5) rotate(360deg); opacity: 0; }
+}
+
+.background-heart {
+  position: absolute;
+  pointer-events: none;
+  animation: backgroundFloat var(--duration) linear infinite;
+  animation-delay: var(--delay);
+}
+
+/* Parchment Style */
+.letter-paper {
+  background: #fdfaf5;
+  background-image: 
+    radial-gradient(circle at 10% 20%, rgba(224, 148, 133, 0.05) 0%, transparent 20%),
+    radial-gradient(circle at 90% 80%, rgba(232, 171, 48, 0.05) 0%, transparent 20%);
+  box-shadow: 
+    0 10px 40px -10px rgba(0,0,0,0.05),
+    inset 0 0 80px rgba(224,148,133,0.02);
+  position: relative;
+  border: 1px solid rgba(224, 148, 133, 0.1);
+}
+
+/* Glassmorphism */
+.glass-card {
+  @apply bg-white/70 backdrop-blur-lg border border-white/40 shadow-lg;
+}
+
+/* Atmospheric Elements */
+.bokeh {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  opacity: 0.15;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Floating Heart Base Style */
+.floating-heart {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 24px;
+  animation: floatUp 10s linear infinite;
+  z-index: 1;
+  pointer-events: none;
+  font-style: normal;
+}
+
+/* Keyframes for floating animation */
+@keyframes floatUp {
+  0% {
+    transform: translateY(100vh) scale(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100px) scale(1.5);
+    opacity: 0;
+  }
+}
+
+@keyframes sparkle {
+  0%, 100% { opacity: 0; transform: scale(0); }
+  50% { opacity: 1; transform: scale(1.2); }
+}
+
+.animate-sparkle { animation: sparkle 2s ease-in-out infinite; }
