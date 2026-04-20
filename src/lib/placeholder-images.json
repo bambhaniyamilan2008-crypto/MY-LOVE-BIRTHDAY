@@ -3,7 +3,7 @@
     {
       "id": "hero-couple",
       "description": "Romantic couple holding hands",
-      "imageUrl": "./images/1080.webp",
+      "imageUrl": "/public/images/1080.webp",
       "imageHint": "romantic couple"
     },
     {
