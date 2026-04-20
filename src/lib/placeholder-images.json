@@ -3,7 +3,7 @@
     {
       "id": "hero-couple",
       "description": "Romantic couple holding hands",
-      "imageUrl": "/images/photo2.jpg",
+      "imageUrl": "/images/1080.jpg",
       "imageHint": "romantic couple"
     },
     {
@@ -15,61 +15,61 @@
     {
       "id": "couple-memory-1",
       "description": "Couple laughing together",
-      "imageUrl": "/images/memory-1.webp",
+      "imageUrl": "/images/photo2.jpg",
       "imageHint": "happy couple"
     },
     {
       "id": "journey-1",
       "description": "First meeting place or symbol",
-      "imageUrl": "/images/journey-1.webp",
+      "imageUrl": "/images/MR1.jpg",
       "imageHint": "first meeting"
     },
     {
       "id": "journey-2",
       "description": "Travel memory",
-      "imageUrl": "/images/journey-2.webp",
+      "imageUrl": "/images/MR2.jpg",
       "imageHint": "couple travel"
     },
     {
       "id": "journey-3",
       "description": "Special anniversary",
-      "imageUrl": "/images/journey-3.webp",
+      "imageUrl": "/images/MR3.jpg",
       "imageHint": "anniversary celebration"
     },
     {
       "id": "gallery-1",
       "description": "Romantic dinner",
-      "imageUrl": "/images/gal-1.webp",
+      "imageUrl": "/images/MR4.jpg",
       "imageHint": "romantic dinner"
     },
     {
       "id": "gallery-2",
       "description": "Beach walk",
-      "imageUrl": "/images/gal-2.webp",
+      "imageUrl": "/images/MR5.jpg",
       "imageHint": "beach couple"
     },
     {
       "id": "gallery-3",
       "description": "Engagement ring",
-      "imageUrl": "/images/gal-3.webp",
+      "imageUrl": "/images/MR6.jpg",
       "imageHint": "engagement ring"
     },
     {
       "id": "gallery-4",
       "description": "Happy wedding",
-      "imageUrl": "/images/gal-4.webp",
+      "imageUrl": "/images/MR7.jpg",
       "imageHint": "wedding couple"
     },
     {
       "id": "gallery-5",
       "description": "Snow day",
-      "imageUrl": "/images/gal-5.webp",
+      "imageUrl": "/images/MR8.jpg",
       "imageHint": "winter couple"
     },
     {
       "id": "gallery-6",
       "description": "City lights",
-      "imageUrl": "/images/gal-6.webp",
+      "imageUrl": "/images/photo2.jpeg",
       "imageHint": "city romance"
     }
   ]
