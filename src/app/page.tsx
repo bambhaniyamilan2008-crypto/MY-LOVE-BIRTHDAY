@@ -334,7 +334,7 @@ export default function BirthdayPage() {
              <Star className="text-primary fill-primary w-6 h-6 opacity-30" />
           </div>
           <div className="space-y-2">
-            <p className="text-primary font-headline text-xl md:text-2xl font-bold tracking-widest">RADIANT REVERIE</p>
+            <p className="text-primary font-headline text-xl md:text-2xl font-bold tracking-widest">REKHU LOVE MILU</p>
             <p className="text-muted-foreground font-body text-[10px] md:text-xs opacity-60 uppercase tracking-[0.3em]">Made with love for my best half • {new Date().getFullYear()}</p>
           </div>
         </div>

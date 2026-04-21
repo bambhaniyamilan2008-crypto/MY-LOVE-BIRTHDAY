@@ -106,7 +106,7 @@ export default function SurpriseModal() {
               <p className="font-headline text-2xl md:text-3xl text-primary font-bold not-italic mb-4">
                 Happy 18th Birthday! 🎂
               </p>
-              <p className="text-3xl font-headline font-bold text-primary tracking-tighter">Radiant Reverie ❤️</p>
+              <p className="text-3xl font-headline font-bold text-primary tracking-tighter">REKHU LOVE MILU ❤️</p>
             </div>
           </div>
 

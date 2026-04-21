@@ -3,7 +3,7 @@ import type {Metadata} from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Radiant Reverie | Happy Birthday My Love',
+  title: 'REKHU LOVE MILU | Happy Birthday My Love',
   description: 'A special birthday surprise website for the most wonderful wife.',
 };
 
